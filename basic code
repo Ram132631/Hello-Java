@@ -1,0 +1,14 @@
+import java.util.Scanner; // Import the Scanner class for user input
+
+public class BasicIO {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); // Create a Scanner object
+
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine(); // Read user input
+
+        System.out.println("Hello, " + name + "! Welcome to Java.");
+
+        scanner.close(); // Close the scanner
+    }
+}
